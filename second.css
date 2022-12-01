@@ -1,0 +1,57 @@
+.blue-colors {
+	width: 500px;
+	height: 70px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) ;
+}
+
+.align {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: #0469D2;
+	opacity: 0.5;
+	display: inline-block;
+	margin-left: 22px;
+}
+
+.blue1 {
+	animation-name: one;
+	animation-duration: 1s;
+}
+
+.blue2 {
+	animation-name: one;
+	animation-duration: 1s;
+	animation-delay: 1s;
+}
+
+.blue3 {
+	animation-name: one;
+	animation-duration: 1s;
+	animation-delay: 2s;
+}
+
+.blue4 {
+	animation-name: one;
+	animation-duration: 1s;
+	animation-delay: 3s;
+}
+
+.blue5 {
+	animation-name: one;
+	animation-duration: 1s;
+	animation-delay: 4s;
+}
+
+@keyframes	one {
+	from {
+		opacity: 0.5;
+	}
+	to {
+		opacity: 1;
+		transform: translate(25px);
+	}
+}
